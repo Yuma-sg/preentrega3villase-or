@@ -6,8 +6,11 @@
     box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+.header {
+    background-color: #111111;
+}
 
 .hero {
-    background-image: url("../img/banner-home.jpg");
+    background-image: url(../img/banner-home.jpg);
     height: 580px;
 }
