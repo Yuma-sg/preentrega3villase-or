@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+*::-moz-selection {
+  background-color: black;
+  color: #00A827;
+}
+*::selection {
+  background-color: black;
+  color: #00A827;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: black;
+}
+header .logo {
+  margin-right: auto;
+}
+header .nav__links {
+  list-style: none;
+  display: flex;
+}
+header .nav__links .nav__links, header .nav__links .cta, header .nav__links a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+header .nav__links .nav__links li {
+  padding: 0px 20px;
+}
+header .nav__links .nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+header .nav__links .nav__links li a:hover {
+  color: #00A827;
+}
+header .nav__links .cta {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: #00A827;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+header .nav__links .cta .cta:hover {
+  background-color: #003f0f;
+}/*# sourceMappingURL=style.css.map */
