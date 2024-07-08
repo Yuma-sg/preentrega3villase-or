@@ -43,12 +43,13 @@
     </header>
     <main>
         <section class="hero d-flex justify-content-center align-items-center">
-            <h1 class="text-success">Bienvenidos</h2>
-            <p class="text-white">Te damos capacitaciones personalizadas<br>para mejorar la gestión de tu negocio y/o equipo.</p>
-            <div class="buttons-banner-home">
-                <a class="button-serv button-full" href="./pages/servicios.html">Ver servicios</a>
-                <a class="button-reserv button-full md" href="./pages/reserva.html">Reserva</a>
-            </div>
+            <div class="text-container">
+                <h1 class="text-bienvenidos">Bienvenidos</h1>
+                <p class="text-">Te damos capacitaciones personalizadas<br>para mejorar la gestión de tu negocio y/o equipo.</p>
+                <div class="buttons-banner-home">
+                    <a class="button-serv button-full" href="./pages/servicios.html">Ver servicios</a>
+                    <a class="button-reserv button-full md" href="./pages/reserva.html">Reserva</a>
+                </div>
           </section>
     
           <section class="container">
@@ -110,15 +111,19 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div class="container">
-                <h2 class="row mt-5 d-flex justify-content-center align-items-center">¿Quieres saber mas?</h2>
-            </div>
-        </section>
+        
         <div class="mb-3">
-            <label for="exampleFormControlInput1" class="row mt-5 d-flex justify-content-center align-items-center">Deja tu correo aqui abajo</label>
-            <input type="email" class="form-control mt-5" id="exampleFormControlInput1" placeholder="nombre@tucorreo.com">
-          </div>
+            <form>
+               <div class="register-mail">
+                    <h2 class="mas-pregunta">¿Quieres saber mas?</h2>
+                    <p class="dejatumail-txt">Deja tu correo aqui abajo</p>
+                    <div class="mail-short">
+                        <input type="email" id="email" placeholder="ejemplo@tumail.com" required>
+                        <button type="submit" class="btn btn-success">Enviar</button>
+                    </div>
+               </div>
+            </form>
+        </div>
     </main>
 
     <footer>
